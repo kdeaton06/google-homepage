@@ -66,3 +66,36 @@
 	-webkit-appearance: none;
 	margin: 15px 15px;
 }
+
+.footer {
+	position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.footer-left {
+	list-style-type: none;
+	float: left;
+	margin: 11px;
+}
+
+.footer-left li {
+	vertical-align: middle;
+    display: table-cell;
+    padding: 0px 10px;
+    
+}
+
+.footer-right {
+	list-style-type: none;
+	float: right;
+	margin: 11px;
+}
+
+.footer-right li {
+	vertical-align: middle;
+    display: table-cell;
+    padding: 0px 10px;
+}
